@@ -1,0 +1,159 @@
+00.00.00 - 0ms
+- [ ] MAIN:
+    - [x] LEVELS -inf, 0db 20000
+    - [x] EQ 1
+    - [ ] CHOPPER 1 (1/4, not 1/2)
+    - [ ] REVERB 1
+
+wait 31300ms
+00.31.30 - 31300ms
+- [ ] MAIN:
+    - [x] EQ 2
+    - [ ] METALLIZER 1
+    - [ ] CHOPPER 2
+    - [x] REVERB DRY 100 in 3 seconds
+    - [1] PAN 1
+
+wait 2920ms
+00.34.22 - 34220ms
+- [x] LOOP1 RECORD
+
+wait 930ms
+00.35.15 - 35150ms
+- [ ] LOOP1 PLAYBACK:
+    - [x] PAN
+    - [x] EQ AUTOMATION
+    - [ ] RINGMOD
+    - [ ] REVERB:
+        - [ ] MIX 0
+        - [ ] 01:45:00 105000ms MIX move to 100
+
+wait 68850ms
+01.44.00 - 104000ms (01.44.00-02.06.22 no longer exists - remove from patch)
+- [x] MAIN:
+    - [x] LEVEL 0 0 (cue 2)
+    - [x] EQ 3
+    - [x] PAN 2
+
+wait 15250ms
+01.59.25 - 119250ms
+- [x] LOOP1 STOP
+
+wait 6970ms
+02.06.22 - 126220ms
+- [x] LOOP2 RECORD
+
+wait 2840ms
+02.09.06 - 129060ms
+- [x] LOOP2 STOP RECORD, STORE LOOP:
+    - [x] PITCH SHIFT +12 semitones
+    - [ ] EQ CHECK EQ PROBLEM
+    - [ ] DISTORTION AUTOMATION (same for LOOP3)
+    - [ ] REVERB (part5+12+loop)
+
+wait 940ms
+02.10.00 - 130000ms
+- [x] LOOP3 RECORD
+
+wait 2000ms
+02.12.00 - 132000ms
+- [x] LOOP3 STOP RECORD, LOOP START:
+    - [x] PITCH SHIFT +12 semitones
+    - [ ] EQ (loop2)
+    - [ ] DISTORTION AUTOMATION (same for LOOP2)
+    - [ ] REVERB (same as loop2)
+
+wait 6000ms
+02.18.00 - 138000ms
+- [ ] LOOP1 START:
+    FREQ AUTOMATION (the one with triangles and reverb mix)
+    REVERB MIX AUTOMATION
+
+wait 29000ms
+02.47.00 - 167000ms
+- [x] LOOP3 STOP (RECORDING3 2)
+- [ ] LOOP2 AUTOMATION (blue bracket, remember orange bracket for repeat)
+    167000ms START
+    179130ms STOP
+    181020ms START
+    182020ms STOP
+    183230ms START
+    184230ms STOP
+    186160ms START
+    188160ms STOP
+
+    FIGURE OUT WHAT HABIB MEANS BY REPEATS
+
+wait 1200ms
+02.48.20 - 168200ms
+- [ ] LOOP1 STOP
+
+wait 8980ms
+02.57.18 - 177180ms
+- [ ] MAIN:
+    - [x] LEVEL -inf, 0db 2010
+    - [ ] PITCH SHIFT +12 semitones
+
+wait 1920ms
+02.59.10 - 179100ms
+- [ ] LOOP1 START w/ NEW AUTOMATIONS
+
+wait 10970ms
+03.10.07 - 190070ms
+- [ ] MAIN:
+    - [ ] PITCH SHIFT OFF
+    - [x] LEVEL 0 0
+
+wait 9950ms
+03.20.02 - 200020ms
+- [ ] MAIN:
+    - [x] LEVEL -inf, -1db 3280
+    - [?] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q) CHECK THIS FILTER WITH HABIB
+    - [ ] REVERB (predelay 115, time 10, diffusion 80, mix 30)
+
+wait 10230ms
+03.30.25 - 210250ms
+- [ ] LOOP1 STOP
+
+wait 1950ms
+03.32.20 - 212200ms
+- [x] MAIN:
+    - [x] LEVEL -1db, -inf 1850
+
+wait 17850ms
+03.50.05 - 230050ms
+- [ ] MAIN:
+    - [x] LEVEL -inf, -1db 4950
+    - [x DOES NOT CHANGE, EQ 4 STILL ON] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q)
+    REVERB (predelay 115, time 10, diffusion 80, mix 30)
+
+wait 3050ms
+03.53.10 - 233100ms
+- [x] MAIN:
+    - [x] LEVEL -1db, -inf 1900
+
+wait 16950ms
+04.10.05 - 250050ms
+- [x] MAIN:
+    - [x] LEVEL -inf, -1db 32120
+    - [x DOES NOT CHANGE, EQ 4 STILL ON] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q)
+    REVERB (predelay 115, time 10, diffusion 80, mix 30)
+
+wait 39170ms
+04.49.22 - 289220ms
+- [ ] LOOP1:
+    REVERB MIX AUTOMATION (see new file)
+    FREQUENCY AUTOMATION (see new file)
+    Until the end
+
+wait 160780ms
+07.30.00 - 450000ms
+- [x] MAIN LEVEL 0 0
+
+wait 2000ms
+07.32.00 - 452000ms
+- [x?] MAIN LEVEL BACK TO NORMAL (keep EQ+REVERB) (0db or -1db?)
+
+wait 151050ms
+10.03.05 - 603050ms
+- [ ] PIECE ENDS - WHAT DO TO HERE ???
