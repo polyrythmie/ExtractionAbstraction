@@ -1,0 +1,31 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Max AutoRingMod.amxd",
+	"origin" : "Max AutoRingMod.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Max AutoRingMod.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max AutoRingMod/Max AutoRingMod.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Dry/Wet" : 40.0,
+				"EnvFollower" : 0.0,
+				"EnvInput" : 0.0,
+				"EnvInterval" : 108.464569,
+				"EnvMode" : 0.0,
+				"EnvSharpness" : 0.0,
+				"EnvSmooth" : 50.0,
+				"Gain" : 0.0,
+				"ModOffset" : 0.0,
+				"ModRange" : 3307.08667
+			}
+
+		}
+
+	}
+
+}
