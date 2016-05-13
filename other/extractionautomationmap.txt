@@ -199,6 +199,9 @@ wait 2000ms
 - [x] MAIN LEVEL BACK TO NORMAL (keep EQ+REVERB) (0db or -1db?)
 - [x] LOOP LEVEL BACK TO NORMAL CUE 11
 
-wait 151050ms
+wait 132570ms
+- [x] 9.44.57 - loop 1 end 584570
+
+wait 18480ms
 10.03.05 - 603050ms
 - [ ] PIECE ENDS - WHAT DO TO HERE ???
