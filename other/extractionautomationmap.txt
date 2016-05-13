@@ -1,18 +1,18 @@
 00.00.00 - 0ms
-- [ ] MAIN:
+- [x] MAIN:
     - [x] LEVELS -inf, 0db 20000
     - [x] EQ 1
-    - [ ] CHOPPER 1 (1/4, not 1/2)
-    - [ ] REVERB 1
+    - [x] CHOPPER 1 (1/4, not 1/2)
+    - [x] REVERB 1
 
 wait 31300ms
 00.31.30 - 31300ms
 - [ ] MAIN:
     - [x] EQ 2
     - [ ] METALLIZER 1
-    - [ ] CHOPPER 2
+    - [x] CHOPPER 2
     - [x] REVERB DRY 100 in 3 seconds
-    - [1] PAN 1
+    - [x] PAN 1
 
 wait 2920ms
 00.34.22 - 34220ms
@@ -34,6 +34,7 @@ wait 68850ms
     - [x] LEVEL 0 0 (cue 2)
     - [x] EQ 3
     - [x] PAN 2
+    - [x] REVERB 3
 
 wait 15250ms
 01.59.25 - 119250ms
@@ -65,55 +66,69 @@ wait 2000ms
 
 wait 6000ms
 02.18.00 - 138000ms
-- [ ] LOOP1 START:
-    FREQ AUTOMATION (the one with triangles and reverb mix)
-    REVERB MIX AUTOMATION
+- [x] LOOP1 START:
+    - [x] FREQ AUTOMATION (the one with triangles and reverb mix)
+        EQ: bandpass +24db 1654Hz 5.2Q
+        [:20000 1150
+        20 10
+        20000 1850
+        1654 0:]
+    - [ ] REVERB MIX AUTOMATION
+        - [ ] 2.18.00 MIX 100%
+        - [ ] [:1150 MIX 0%
+        - [ ] 1130 MIX 100%:]
+    - [ ] PANNING?
 
 wait 29000ms
 02.47.00 - 167000ms
 - [x] LOOP3 STOP (RECORDING3 2)
-- [ ] LOOP2 AUTOMATION (blue bracket, remember orange bracket for repeat)
-    167000ms START
-    179130ms STOP
-    181020ms START
-    182020ms STOP
-    183230ms START
-    184230ms STOP
-    186160ms START
-    188160ms STOP
+- [x] LOOP2 AUTOMATION (blue bracket, remember orange bracket for repeat)
+    - [x] [:167000ms START, wait 12130ms
+    - [x] 179130ms STOP, wait 1890ms
+    - [x] 181020ms START, wait 1000ms
+    - [x] 182020ms STOP, wait 1210ms
+    - [x] 183230ms START, wait 1000ms
+    - [x] 184230ms STOP, wait 1930ms
+    - [x] 186160ms START, wait 2000ms
+    - [x] 188160ms STOP:]
 
-    FIGURE OUT WHAT HABIB MEANS BY REPEATS
+    - [x] @ 03.10.12 - 190120ms, repeat this,
+
+    - [x] 03.38.18 - 218180ms START
+    - [x] 03.52.12 - 232120ms STOP
 
 wait 1200ms
 02.48.20 - 168200ms
-- [ ] LOOP1 STOP
+- [x] LOOP1 STOP
 
 wait 8980ms
 02.57.18 - 177180ms
-- [ ] MAIN:
+- [x] MAIN:
     - [x] LEVEL -inf, 0db 2010
-    - [ ] PITCH SHIFT +12 semitones
+    - [x] PITCH SHIFT +12 semitones
 
 wait 1920ms
 02.59.10 - 179100ms
 - [ ] LOOP1 START w/ NEW AUTOMATIONS
+    - [x] EQ
+    - [ ] REV
 
 wait 10970ms
 03.10.07 - 190070ms
-- [ ] MAIN:
-    - [ ] PITCH SHIFT OFF
+- [x] MAIN:
+    - [x] PITCH SHIFT OFF
     - [x] LEVEL 0 0
 
 wait 9950ms
 03.20.02 - 200020ms
-- [ ] MAIN:
+- [x] MAIN:
     - [x] LEVEL -inf, -1db 3280
-    - [?] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q) CHECK THIS FILTER WITH HABIB
-    - [ ] REVERB (predelay 115, time 10, diffusion 80, mix 30)
+    - [x] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q) CHECK THIS FILTER WITH HABIB
+    - [x] REVERB (predelay 115, time 10, diffusion 80, mix 30)
 
 wait 10230ms
 03.30.25 - 210250ms
-- [ ] LOOP1 STOP
+- [x] LOOP1 STOP
 
 wait 1950ms
 03.32.20 - 212200ms
@@ -122,10 +137,10 @@ wait 1950ms
 
 wait 17850ms
 03.50.05 - 230050ms
-- [ ] MAIN:
+- [x] MAIN:
     - [x] LEVEL -inf, -1db 4950
     - [x DOES NOT CHANGE, EQ 4 STILL ON] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q)
-    REVERB (predelay 115, time 10, diffusion 80, mix 30)
+    - [x] DOES NOT CHANGE REVERB (predelay 115, time 10, diffusion 80, mix 30)
 
 wait 3050ms
 03.53.10 - 233100ms
@@ -135,24 +150,54 @@ wait 3050ms
 wait 16950ms
 04.10.05 - 250050ms
 - [x] MAIN:
-    - [x] LEVEL -inf, -1db 32120
+    - [x] LEVEL -inf, -1db 32120 (CUE 9)
     - [x DOES NOT CHANGE, EQ 4 STILL ON] EQ (highcut 740Hz -24db 1Q), (bandpass 145Hz +13db 5Q)
-    REVERB (predelay 115, time 10, diffusion 80, mix 30)
+    - [x DOES NOT CHANGE] REVERB (predelay 115, time 10, diffusion 80, mix 30)
 
 wait 39170ms
 04.49.22 - 289220ms
-- [ ] LOOP1:
-    REVERB MIX AUTOMATION (see new file)
-    FREQUENCY AUTOMATION (see new file)
-    Until the end
+- [ ] LOOP1: CUE 7
+    - [ ] REVERB MIX AUTOMATION (see new file)
+    - [x] FREQUENCY AUTOMATION (see new file)
 
-wait 160780ms
+30900ms
+05.20.12 - 320120ms
+- [ ] LOOP1: CUE 8
+    - [ ] REVERB MIX AUTOMATION CHANGE
+    - [x] FREQUENCY AUTOMATION CHANGE
+        1712, 20000 920
+        6890, 20000 220
+        values wrong!
+
+        new values:
+        1648, 20000 920 @5.21.04 321040
+        6836, 20000 230 @5.21.27 321270
+        1648, 20000 1860 @5.23.13 323130
+
+        5.20.401 320401
+        1648, 20000 772 @5.21.173 321173
+        6836, 20000 757 @5.21.930 321930
+        1648, 20000 1545 @5.23.475 323475
+
+
+76890ms
+06.37.01 - 397010ms
+- [ ] LOOP1: CUE 9
+    - [ ] REVERB MIX AUTOMATION CHANGE
+    - [x] FREQUENCY AUTOMATION CHANGE
+        2000, 20000 1160 (398170-397010=1160)
+        50, 20000 (399280-398180=1100)
+    until the end (CUE 12)
+
+wait 52990ms
 07.30.00 - 450000ms
 - [x] MAIN LEVEL 0 0
+- [x] LOOP LEVEL 0 0 CUE 10
 
 wait 2000ms
 07.32.00 - 452000ms
-- [x?] MAIN LEVEL BACK TO NORMAL (keep EQ+REVERB) (0db or -1db?)
+- [x] MAIN LEVEL BACK TO NORMAL (keep EQ+REVERB) (0db or -1db?)
+- [x] LOOP LEVEL BACK TO NORMAL CUE 11
 
 wait 151050ms
 10.03.05 - 603050ms
