@@ -24,9 +24,9 @@ wait 930ms
     - [x] PAN
     - [x] EQ AUTOMATION
     - [ ] RINGMOD
-    - [ ] REVERB:
-        - [ ] MIX 0
-        - [ ] 01:45:00 105000ms MIX move to 100
+    - [x] REVERB:
+        - [x] MIX 0
+        - [x] 01:45:00 105000ms MIX move to 100
 
 wait 68850ms
 01.44.00 - 104000ms (01.44.00-02.06.22 no longer exists - remove from patch)
