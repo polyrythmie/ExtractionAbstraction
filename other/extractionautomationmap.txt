@@ -66,18 +66,17 @@ wait 2000ms
 
 wait 6000ms
 02.18.00 - 138000ms
-- [x] LOOP1 START:
+- [x] LOOP1 START
     - [x] FREQ AUTOMATION (the one with triangles and reverb mix)
         EQ: bandpass +24db 1654Hz 5.2Q
         [:20000 1150
         20 10
         20000 1850
         1654 0:]
-    - [ ] REVERB MIX AUTOMATION
-        - [ ] 2.18.00 MIX 100%
-        - [ ] [:1150 MIX 0%
-        - [ ] 1130 MIX 100%:]
-    - [ ] PANNING?
+    - [x] REVERB MIX AUTOMATION
+        - [x] 2.18.00 MIX 100% 138000ms
+        - [x] [:1150 MIX 0%
+        - [x] 1130 MIX 100%:]
 
 wait 29000ms
 02.47.00 - 167000ms
@@ -109,9 +108,12 @@ wait 8980ms
 
 wait 1920ms
 02.59.10 - 179100ms
-- [ ] LOOP1 START w/ NEW AUTOMATIONS
+- [x] LOOP1 START w/ NEW AUTOMATIONS
     - [x] EQ
-    - [ ] REV
+    - [x] REV
+        start 100%
+        180270-179100 0% 1170ms
+        1
 
 wait 10970ms
 03.10.07 - 190070ms
@@ -156,14 +158,18 @@ wait 16950ms
 
 wait 39170ms
 04.49.22 - 289220ms
-- [ ] LOOP1: CUE 7
-    - [ ] REVERB MIX AUTOMATION (see new file)
+- [x] LOOP1: CUE 7
+    - [x] REVERB MIX AUTOMATION (see new file)
     - [x] FREQUENCY AUTOMATION (see new file)
 
 30900ms
 05.20.12 - 320120ms
-- [ ] LOOP1: CUE 8
-    - [ ] REVERB MIX AUTOMATION CHANGE
+- [x] LOOP1: CUE 8
+    - [x] REVERB MIX AUTOMATION CHANGE
+        100%
+        321040 move to 0 920ms
+        45% to 0 in 220ms
+
     - [x] FREQUENCY AUTOMATION CHANGE
         1712, 20000 920
         6890, 20000 220
@@ -182,8 +188,11 @@ wait 39170ms
 
 76890ms
 06.37.01 - 397010ms
-- [ ] LOOP1: CUE 9
-    - [ ] REVERB MIX AUTOMATION CHANGE
+- [x] LOOP1: CUE 9
+    - [x] REVERB MIX AUTOMATION CHANGE
+        100%
+        1, 0. 1160
+        0, 1. 1100
     - [x] FREQUENCY AUTOMATION CHANGE
         2000, 20000 1160 (398170-397010=1160)
         50, 20000 (399280-398180=1100)
