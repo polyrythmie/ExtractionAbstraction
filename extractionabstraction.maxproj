@@ -2,7 +2,7 @@
 	"name" : "extractionabstraction",
 	"version" : 1,
 	"creationdate" : 3545029342,
-	"modificationdate" : 3545937442,
+	"modificationdate" : 3546332555,
 	"viewrect" : [ 120.0, 213.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -31,17 +31,8 @@
 ,
 			"1_4-1-PER-SECOND.mp3" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../Desktop"
-				}
-
+				"local" : 1
 			}
-
-		}
-,
-		"data" : 		{
 
 		}
 
